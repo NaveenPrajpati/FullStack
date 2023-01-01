@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/* background-image: url(/CollegeWebsite/images/lib.webp);
+	background-size: cover; */
+	
+	/* background-position: center; */
+}
+.data{
+	width: 300px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	background: rgb(231, 231, 231);
+	padding: 20px;
+	margin: 10px auto;
+	text-align: left;
+	border-radius: 4px;
+}
+.data header{
+	margin-top: -30px;
+	text-align: center;
+}
+.form-data input{
+	width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;  
+    border: none;
+    outline: none;
+    background: rgb(206, 204, 204);
+}
+.radio input{
+	padding: 0;
+	margin:0;
+    width: 20px;	
+}
+.job{
+	margin:5px 0;
+}
+.job #j{
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;
+	background-color:rgb(206,204,204);
+
+}
+
+.check #interest{
+	margin: 5px 0px;
+	padding: 0px;
+	width: 30px;	
+}
+button{
+		width: 100%;
+		padding: 10px;
+		margin-top: 20px;
+		color:white;
+    background-color: rgb(31, 250, 31);
+	font-size: 15px;
+    border: 1px solid rgb(134, 218, 9);
+	border-radius: 3px;
+	cursor: pointer;
+}
