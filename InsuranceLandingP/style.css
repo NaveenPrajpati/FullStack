@@ -1,14 +1,75 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 nav{
-    background-color: yellowgreen;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;  
+   display: flex;
+   justify-content: space-between;
+
+}
+nav h1{
+    /* padding: 10px; */
+    margin: 10px;
 }
 nav ul{
     list-style: none;
-    text-align: center;
 }
 nav li{
-    display: inline-block; 
+    margin: 8px;
+    display: inline-block;
+    color: grey;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+button{
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px;
+}
+.heading{
+    font-size:60px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.firtbanner{
+   padding: 100px 40px 0px 40px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(32, 1, 32);
+    color: white;
+    display: flex;
+    /* justify-content:space-between; */
+}
+img{
+    /* margin-right: 40px; */
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+}
+.secondbanner{
+    margin-top: 20px;
+    padding: 100px 40px 0px 40px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+     justify-content:space-between;
+}
+.ctaContent{
+    width: 100%;
+    display: flex;
+}
+.thirdbanner{
+    padding: 100px 40px 0px 40px;
+    margin: 30px 30px; 
+    height: 300px;
+    background-color: rgb(32, 1, 32);
+    color: white;
+    display: flex; 
+    justify-content: space-between;
 }
