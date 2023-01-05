@@ -1,84 +1,69 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right red,blue);
+  padding: 40px;
+  background-image: linear-gradient(to right, red,purple);
 }
-.sidebar {
-    grid-area: sidebar;
-  }
-
-  .sidebar2 {
-    grid-area: sidebar2;
-  }
-
-  .content {
-    grid-area: content;
-  }
-
-  .header {
-    grid-area: header;
-  }
-
-  .footer {
-    grid-area: footer;
-  }
-
-  .wrapper {
-    background-color: #fff;
-    color: #444;
-  }
-
-  .wrapper {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas:
-     "header"
-     "sidebar"
-     "content"
-     "sidebar2"
-     "footer"
-  }
-
-  @media only screen and (min-width: 500px)  {
-  .wrapper {
-
-    grid-template-columns: 20% auto;
-    grid-template-areas:
-    "header   header"
-    "sidebar  content"
-    "sidebar2 sidebar2"
-    "footer   footer";
-  }
-  }
-
-  @media only screen and (min-width: 600px)   {
-    .wrapper {
-      grid-gap: 20px;
-      grid-template-columns: 120px auto 120px;
-      grid-template-areas:
-      "header  header  header"
-      "sidebar content sidebar2"
-      "footer  footer  footer";
-      max-width: 600px;
-    }
-  }
-
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  font-size: 150%; 
+.firtbanner{
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 1000px 400px;
+  grid-template-rows: 200px 200px;
+  gap: 20px 20px;
 }
-
-.header,
-.footer {
-  background-color: #999;
+.box1{
+  grid-area: 1/1/3/2;
+  background-image: url(/webgrid/asset/asset\ 12.jpeg);
+  background-size: cover;
+  background-position: bottom;
 }
+.box2{
+  grid-area: 1/2/2/3;
+  background-color: yellow;
+}
+.box3{
+  grid-area: 2/2/3/3;
+  background-color: yellow;
+}
+.seconbanner{
+  margin: 20px;
+  width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.seconbanner p{
+  width: 270px;
+  height: 50px;
+  background-color: yellow;
+}
+.thirdbanner{
+margin: 20px 0;
+display: flex;
+justify-content: space-between;
+}
+.third{
+  text-align: center;
+width: 300px;
+height: 200px;
+  background-color: white;
+}
+.fourthbanner{
+  background-color: white;
+  display: flex;
+}
+.fourthbanner img{
+  margin: 20px;
+  padding: 20px;
+}
+.line{
+  margin: 20px 0;
+  height: 10px;
+  background-color: yellow;
+  text-align: center;
+}
+.line h2{
 
-.sidebar2 {
-  background-color: #ccc;
-  color: #444;
 }
