@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.org {
+    color: #ea563a;
+}
+
+.navbar {
+    color: white;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(160, 157, 157, 0.3);
+
+}
+
+ul {
+    
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+li:hover{
+    background-color: #e73b18;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background-color: #ea563a;
+    border: none;
+}
+
+.heading {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    width: 100%;
+    height: 700px;
+    background-image: radial-gradient(circle, rgba(181, 182, 187, 0.1), rgba(58, 55, 57, 0.53)), url(/Zym/images/b1.jpg);
+    background-size: cover;
+}
+
+.top2 {
+    font-family: sans-serif;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.subcard {
+    font-family: sans-serif;
+    display: flex;
+    
+    gap: 20px;
+    align-items: center;
+}
+
+.cards {
+    margin: 10px 0;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    row-gap: 40px;
+
+}
+
+.banner {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: sans-serif;
+    color: white;
+    height: 400px;
+    background-image: url(/Zym/images/asset\ 8.jpeg);
+    background-position: center;
+}
+
+.banner2 {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    height: 300px;
+}
+
+.colgrid {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.sidebarl {
+    margin: 0 30px;
+}
+
+.side {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    gap: 10px;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebarr {
+    margin: 0 40px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.table {
+    height: 800px;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(/Zym/images/asset\ 9.jpeg);
+    background-position: center;
+}
+
+table,
+td {
+    color: white;
+    padding: 30px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.tags {
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.subtags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.subt {
+    font-family: sans-serif;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.direction {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    height: 500px;
+}
+
+.map {
+    margin-left: 20px;
+    width: 50%;
+    height: inherit;
+}
+
+.detail {
+    width: 50%;
+    background-image: url(/Zym/images/asset\ 10.jpeg);
+    background-size: contain;
+    height: inherit;
+}
+iframe{
+    width: 100%;
+    height: inherit;
+}
+form {
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+}
+form input{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+font-family: sans-serif;
+    padding: 30px;
+    text-align: center;
+}
